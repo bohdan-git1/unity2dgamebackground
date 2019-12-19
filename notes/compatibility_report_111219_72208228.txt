@@ -1,0 +1,25 @@
+Converting GML script: ${project_dir}\objects\obj_test\Create_0.gml
+Converted description /// @description  stop screen draw
+
+Converting GML script: ${project_dir}\objects\obj_test\Step_0.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] += 10 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (10) )
+Converted builtin - line 5: view_xview[0] -= 10 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) - (10) )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description  mouse camera movement
+
+Converting GML script: ${project_dir}\objects\obj_test\Draw_75.gml
+Converted description /// @description  draw app
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 30
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
